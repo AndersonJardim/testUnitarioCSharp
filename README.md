@@ -27,15 +27,10 @@ dotnet sln add .\tests\minhaapi.tests\
 dotnet add .\tests\minhaapi.tests\ reference .\src\minhaapi\
 
 ## Adicionando PACKAGE
-dotnet add .\tests\minhaapi.tests\ package FluentAssertons
+dotnet add .\tests\minhaapi.tests\ package FluentAssertions
 
-
-
-
-
-
-
-
+## build e run
+dotnet build
 
 
 
